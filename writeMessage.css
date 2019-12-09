@@ -1,0 +1,13 @@
+#seeShim {
+    width: 300;
+    height: 150;
+    display: block;
+    margin: auto;
+}
+
+#message {
+    display: block;
+    margin: auto;
+    height: 50;
+    width: 500;
+}
