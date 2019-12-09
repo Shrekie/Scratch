@@ -1,0 +1,16 @@
+<button type="button" id="seeShim">Click Me!</button>
+
+<br>
+
+<input type="text" id="message" value="">
+
+<script>
+
+    let seeShim = document.getElementById("seeShim");
+    let message = document.getElementById("message");
+
+    seeShim.addEventListener("click", () => {
+        window.location.href = "./scratchCard.html?" + message.value;
+    });
+
+</script>
