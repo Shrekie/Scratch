@@ -3,6 +3,7 @@
     height: 150;
     display: block;
     margin: auto;
+    background-color: #e2d42b54
 }
 
 #message {
@@ -10,4 +11,5 @@
     margin: auto;
     height: 50;
     width: 500;
+    background-color: antiquewhite;
 }

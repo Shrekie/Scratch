@@ -7,7 +7,7 @@ class ScratchCard {
         this.canvasTool = this.projectionCanvas.getContext("2d");
     }
 
-    paintShim(color = "gold") {
+    paintShim(color = "#EAEA95") {
         this.canvasTool.fillStyle = color;
         this.canvasTool.fillRect(0, 0, this.tableWidth, this.tableHeight);
     }
